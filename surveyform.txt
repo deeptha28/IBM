@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>survey form</title>
+<style>
+body{
+   font-size: 7vh;
+   text-align: center;
+}
+form{
+   background-color: #fff;
+   margin: 50px;
+   padding: 30px 20px;
+}
+.form-control {
+   text-align: left;
+   margin-bottom: 25px;
+}
+</style>
+<body>
+<h1>Survey form for children </h1>
+<form id="form">
+<div class="form-control">
+    <label>name</label>
+    <input type="text" id="name" size="15"><br><br>
+</div>
+<div class="form-control">
+    <label> gender </label>
+    <input type="radio" name="male"/>male<br>
+    <input type="radio" name="female"/>female<br>
+    <input type="radio" name="other"/>other<br>
+</div>
+<div class="form-control">
+    <label> fathersname </label>
+    <input type="text" id="fname" size="15"><br>
+</div>
+</form>
+</body>
+</html>
+
+
+
