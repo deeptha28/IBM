@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+<style>
+</style>
+.parallax-1{
+   width: 90%;
+   height: 300px;
+   background: url(
+'https://media.geeksforgeeks.org/wp-content/uploads/20210402175040/back22.jpg');
+   background-attachment: fixed;
+}
+.parallax-1 h1{
+   background-color:black;
+   color:white;
+   text-align:center;
+}
+.parallax-2{
+   width:  90%;
+   height: 600px;
+ background: url(
+'https://media.geeksforgeeks.org/wp-content/uploads/20210402175040/back22.jpg');
+   background-attachment: fixed;
+}
+.parallax-2 h1{
+   background-color:black;
+   color:white;
+   text-align:center;
+}
+.para-1{
+   background-color: black;
+   color: white;
+   font-size: 17px;
+}
+.para-2{
+   background-color: black;
+   color: white;
+   font-size: 17px;
+}
+</head>
+<body>
+<div class="parallax-1">
+<h1> Sara </h1>
+<div class ="para-1">
+<p> Hi, thank you for visiting my page
+    Here is a quick insight of the website and myself.<br>
+    I am a Btech IT engineer, graduated in 2023, website creation
+    and content creation is my passion.I like
+    coding all kind of problem from the very basic like adding
+    numbers to the complex ones like competitive programming problems.
+    I love making projects and games.Infact this website is one of my
+    Web Development Projects which is built using HTML and CSS.<br>
+</p>
+</div>
+<div class="parallax-2">
+<h1> Divisions </h1>
+<div class="para-2">
+<p>
+   - Arts
+   - Sports
+   - Technical skills
+</p>
+</div>
+</body>
+</html>
